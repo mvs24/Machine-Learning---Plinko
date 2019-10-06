@@ -18,7 +18,7 @@ function distance(pointA, pointB) {
 function runAnalysis() {
   const testSetSize = 50;
   const k = 10;
-
+  
   _.range(0, 3).forEach(feature => {
     const data = _.map(outputs, row => [row[feature], _.last(row)]);
     const [testSet, trainingSet] = splitDataset(minMax(data, 1), testSetSize);
