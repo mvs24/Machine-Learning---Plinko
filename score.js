@@ -16,6 +16,7 @@ function distance(pointA, pointB) {
 }
 
 
+
 function runAnalysis() {
   const testSetSize = 50;
   const k = 10;
