@@ -5,6 +5,7 @@ function onScoreUpdate(dropPosition, bounciness, size, bucketLabel) {
   outputs.push([dropPosition, bounciness, size, bucketLabel]);
 }
 
+
 function distance(pointA, pointB) {
   return (
     _.chain(pointA)
